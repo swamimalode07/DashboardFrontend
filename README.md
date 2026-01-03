@@ -1,4 +1,4 @@
-# Admin Dashboard UI — Frontend Assignment
+# Admin Dashboard UI
 
 ---
 
