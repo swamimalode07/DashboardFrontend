@@ -5,6 +5,7 @@ import { TrendingUp } from 'lucide-react'
 import TotalProfitGrid from './StatsGrid/TotalProfitGrid'
 import TotalSalesCard from './StatsGrid/TotalSalesCard'
 import MiniStatsCard from './StatsGrid/MiniStatsCard'
+import { BsCurrencyDollar } from 'react-icons/bs'
 
 const Dashboard = () => {
   return (
@@ -23,12 +24,12 @@ const Dashboard = () => {
                 subtitle="Daily Transactions"
             />
             <MetricCard
-                icon={<TrendingUp className="w-5 h-5" />}
+                icon={<BsCurrencyDollar className="w-5 h-5" />}
                 iconBg='bg-[#56CA00]'
-                title="Transactions"
-                value="1.2k"
-                delta="+38%"
-                subtitle="Daily Transactions"
+                title="Revenue"
+                value="$95.2k"
+                delta="+12%"
+                subtitle="Revenue Increase"
             />
         </div>
     </div>

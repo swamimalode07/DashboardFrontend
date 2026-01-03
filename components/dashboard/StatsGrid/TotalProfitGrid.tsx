@@ -5,11 +5,15 @@ import { FaRegUser } from 'react-icons/fa'
 import { BiLaptop } from 'react-icons/bi'
 import { Button } from '@/components/ui/button'
 import { FaArrowTrendUp } from 'react-icons/fa6'
+import { HiOutlineDotsVertical } from 'react-icons/hi'
 
 const TotalProfitGrid = () => {
   return (
     <div className="w-full">
-      <div className=" grid grid-cols-1  lg:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)]  bg-white rounded-2xl shadow-sm overflow-hidden">
+      <div className="relative grid grid-cols-1  lg:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)]  bg-white rounded-lg shadow-sm overflow-hidden">
+         <HiOutlineDotsVertical
+      className="absolute top-4 right-4 w-5 h-5 text-[#8A8D93]"
+    />
       <div className="p-4 flex flex-col">
         <h3 className="text-lg font-semibold text-[#534F5A] mb-4">
           Total Profit
@@ -68,7 +72,7 @@ const TotalProfitGrid = () => {
             </div>
           </div>
 
-          <Button className=" mt-6 w-full rounded-sm bg-[#9155FD] py-3  text-sm font-medium text-white hover:bg-[#7a43e0]">
+          <Button className=" mt-6 w-full uppercase rounded-sm bg-[#9155FD] py-3  text-sm font-medium text-white hover:bg-[#7a43e0]">
             View Report
           </Button>
         </div>

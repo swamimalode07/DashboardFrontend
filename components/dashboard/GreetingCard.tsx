@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const GreetingCard = () => {
   return (
-    <div className="relative bg-white rounded-lg p-8 mt-10 pr-40 shadow-sm overflow-visible">
-      <div className="max-w-[60%]">
+    <div className="relative bg-white rounded-lg p-8 mt-10 pr-40 shadow-md overflow-visible">
+      <div className="max-w-[65%]">
         <h2 className="text-lg font-medium text-[#534F5A]">
           Congratulations <span className="font-semibold">John!</span> 🎉
         </h2>

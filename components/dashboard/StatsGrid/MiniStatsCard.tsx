@@ -14,7 +14,7 @@ export default function MiniStatsCard({
   imageAlt = "stat graph",
 }: MiniStatsCardProps) {
   return (
-    <div className="w-full rounded-lg bg-white shadow-sm p-4 flex flex-col gap-2">
+    <div className="w-full rounded-lg bg-white shadow-sm p-4 flex flex-col gap-1">
 
       <div className="text-2xl font-medium text-[#534F5A]">
         {value}

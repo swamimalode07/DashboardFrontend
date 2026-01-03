@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import {  Grid} from "lucide-react";
 import { FaLaptop, FaRegCalendar, FaRegCheckCircle, FaRegCircle, FaRegClipboard, FaRegUser } from "react-icons/fa";
-import { MdLockOpen, MdOutlineChatBubbleOutline, MdOutlineContentCopy, MdOutlineCreditCard, MdOutlineEmail, MdOutlineHome, MdOutlinePieChart, MdTextFields } from "react-icons/md";
+import { MdChevronRight, MdLockOpen, MdOutlineChatBubbleOutline, MdOutlineContentCopy, MdOutlineCreditCard, MdOutlineEmail, MdOutlineHome, MdOutlinePieChart, MdTextFields } from "react-icons/md";
 
 import { SidebarItem } from "../sideBar/SidebarItem";
 import { SectionDivider } from "../sideBar/SidebarDivider";
@@ -83,11 +83,8 @@ export default function Sidebar() {
             selected={active === item.title}
             rightIcon={
               item.children ? (
-                <IoChevronDownSharp
+                <MdChevronRight
                   size={16}
-                  className={`transition-transform ${
-                    isOpen ? "rotate-200" : ""
-                  }`}
                 />
               ) : null
             }
