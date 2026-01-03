@@ -35,8 +35,8 @@
 ## Clone / Setup
 
 ```bash
-git clone <repository-url>
-cd <project-folder>
+git clone https://github.com/swamimalode07/DashboardFrontend.git
+cd DashboardFrontend
 npm install
 npm run dev
 
