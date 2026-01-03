@@ -17,7 +17,7 @@ const TotalProfitGrid = () => {
 
   <div className="w-full max-h-[290px] flex items-center justify-center">
     <Image
-      src="/assets/totalProfitcover.png"
+      src="/assets/totalprofitcover.png"
       alt="Total Profit Bar Chart"
       width={400}
       height={290}
